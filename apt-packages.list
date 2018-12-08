@@ -1,6 +1,7 @@
 curl
 exfat-fuse
 exfat-utils
+gcc
 git
 xclip
 zsh
