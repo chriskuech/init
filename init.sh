@@ -17,3 +17,7 @@ echo "eval \$($(brew --prefix)/bin/brew shellenv)" >>~/.profile
 brew install git-credential-manager
 git-credential-manager install
 
+# install f.lux
+sudo add-apt-repository ppa:nathan-renniewaldock/flux
+sudo apt-get update
+sudo apt-get install fluxgui
