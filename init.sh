@@ -17,7 +17,10 @@ echo "eval \$($(brew --prefix)/bin/brew shellenv)" >>~/.profile
 brew install git-credential-manager
 git-credential-manager install
 
-# install f.lux
-sudo add-apt-repository ppa:nathan-renniewaldock/flux
-sudo apt-get update
-sudo apt-get install fluxgui
+# install f.lux (currently fails)
+# sudo add-apt-repository ppa:nathan-renniewaldock/flux
+# sudo apt-get update
+# sudo apt-get install fluxgui
+
+# (almost) fix trackpad driver on kubuntu
+sudo apt install xserver-xorg-input-synaptics
