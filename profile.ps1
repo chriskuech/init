@@ -4,3 +4,5 @@ function Open-Branch {
   $branch = git branch --format "%(refname:short)"
   start "$origin/$branch"
 }
+
+Set-Location "C:\Repos"
