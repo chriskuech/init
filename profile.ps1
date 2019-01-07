@@ -1,6 +1,6 @@
 
 function Get-Branch {
-  git branch --format "%(refname:short)"
+  git rev-parse --abbrev-ref HEAD
 }
 
 function Get-Origin {
