@@ -30,7 +30,7 @@ git-credential-manager install
 sudo apt install xserver-xorg-input-synaptics
 
 # set default directory (macOS Terminal feature shim Jan 2018)
-$DEAFULTDIR="~/Projects"
+DEAFULTDIR="~/Projects"
 if [ "$OLDPWD" ] && [ $PWD = $HOME ]; then
     cd $DEAFULTDIR
 fi
