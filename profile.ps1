@@ -20,6 +20,7 @@ function New-PullRequest {
     throw "Git host '$hostname' is not supported by this cmdlet"
   }
 }
+
 function Open-Branch {
   $branch = Get-Branch
   $origin = Get-Origin
@@ -45,4 +46,5 @@ function Repair-Git {
   git remote prune origin
 }
 
+Write-Host "test test test"
 Set-Location "C:\Repos"
