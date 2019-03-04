@@ -46,5 +46,4 @@ function Repair-Git {
   git remote prune origin
 }
 
-Write-Host "test test test"
 Set-Location "C:\Repos"
