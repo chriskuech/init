@@ -46,4 +46,9 @@ function Repair-Git {
   git remote prune origin
 }
 
+if (-not (Get-Module posh-git -ListAvailable)) {
+  Install-Module posh-git -Scope CurrentUser
+}
+
+Import-Module posh-git
 Set-Location "C:\Repos"
