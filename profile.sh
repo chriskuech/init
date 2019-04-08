@@ -25,6 +25,3 @@ DEFAULTCOLOR="\\033[0m"
 DARKGRAY="\\033[38;5;238m"
 BOLDLIGHTCYAN="\\033[38;5;51;1m"
 export PS1="\[$DARKGRAY\]\A\[$BOLDLIGHTCYAN\]\W\[$DARKGRAY\]▷ \[$DEFAULTCOLOR\]"
-
-# use firefox command
-alias firefox="/Applications/Firefox\ Developer\ Edition.app/Contents/MacOS/firefox"
